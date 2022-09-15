@@ -297,7 +297,7 @@ body{
 }
 
 .menu-item{
-    height: auto;
+    height: 40px;
     font-size: 18px;
     display: inline;
     margin-left: 25px;
@@ -409,7 +409,6 @@ body{
 
 .dark-light-toggle{
     cursor: pointer;
-    text-decoration: underline;
 }
 
 .container-main-last{
