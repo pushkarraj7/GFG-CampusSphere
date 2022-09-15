@@ -1,0 +1,76 @@
+{
+    "board": [
+        {
+            "name": "Shubhadarshie Nanda",
+            "img": "./images/board/shubha.jpeg",
+            "role": "Chaiperson",
+            "in": true
+        },
+        {
+            "name": "Ananya Aparameya",
+            "img": "./images/board/ananya.jpg",
+            "role": "Vice-Chair",
+            "in": true
+        },
+        {
+            "name": "Ajitesh Panda",
+            "img": "./images/board/ajitesh.jpeg",
+            "role": "Events Head",
+            "in": true
+        },
+        {
+            "name": "Sourav Kunda",
+            "img": "./images/board/sourav.jpeg",
+            "role": "Tech Head",
+            "in": true
+        },
+        {
+            "name": "Saiprava Raut",
+            "img": "./images/board/saiprava.jpeg",
+            "role": "Tech Co-Lead",
+            "in": true
+        },
+        {
+            "name": "Alekhya Banerjee",
+            "img": "./images/board/alekhya.jpeg",
+            "role": "Social Media Head",
+            "in": true
+        },
+        {
+            "name": "Sanjiban Sengupta",
+            "img": "./images/board/sanjiban.jpeg",
+            "role": "ML Head",
+            "in": true
+        },
+        {
+            "name": "Aditya Gupta",
+            "img": "./images/board/aditya.jpeg",
+            "role": "Web Dev Lead",
+            "in": true
+        },
+        {
+            "name": "Adhisikha Patnaik",
+            "img": "./images/board/adhisikha.jpeg",
+            "role": "Web Dev Lead",
+            "in": true
+        },
+        {
+            "name": "Sagar Barapatre",
+            "img": "./images/board/sagar.jpg",
+            "role": "Web Dev Lead",
+            "in": true
+        },
+        {
+            "name": "A. Rupeswar Subudhi",
+            "img": "./images/board19/rupeswar.jpg",
+            "role": "Android Dev Lead",
+            "in": true
+        },
+        {
+            "name": "Akash Jaiswal",
+            "img": "./images/board/akash.jpeg",
+            "role": "Content Writer",
+            "in": true
+        }
+    ]
+}
