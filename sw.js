@@ -22,7 +22,6 @@ var filesToCache = [
   './images/after-landing.svg',
   './images/after-landing-dark.svg',
   './images/Behance.svg',
-  './images/dsc-logo-square.svg',
   './images/Facebook.svg',
   './images/Github.svg',
   './images/Instagram.svg',

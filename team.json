@@ -1,37 +1,37 @@
 {
     "board": [
         {
-            "name": "Shubhadarshie Nanda",
+            "name": "Anmol Amrit",
             "img": "./images/board/shubha.jpeg",
             "role": "Chaiperson",
             "in": true
         },
         {
-            "name": "Ananya Aparameya",
+            "name": "Amrit Raj",
             "img": "./images/board/ananya.jpg",
             "role": "Vice-Chair",
             "in": true
         },
         {
-            "name": "Ajitesh Panda",
+            "name": "Ramya Jha",
             "img": "./images/board/ajitesh.jpeg",
             "role": "Events Head",
             "in": true
         },
         {
-            "name": "Sourav Kunda",
+            "name": "Akash Dip",
             "img": "./images/board/sourav.jpeg",
             "role": "Tech Head",
             "in": true
         },
         {
-            "name": "Saiprava Raut",
+            "name": "Harsh Govind",
             "img": "./images/board/saiprava.jpeg",
             "role": "Tech Co-Lead",
             "in": true
         },
         {
-            "name": "Alekhya Banerjee",
+            "name": "Aman Verma",
             "img": "./images/board/alekhya.jpeg",
             "role": "Social Media Head",
             "in": true
