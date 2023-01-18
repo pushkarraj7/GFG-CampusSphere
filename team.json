@@ -3,73 +3,61 @@
         {
             "name": "Anmol Amrit",
             "img": "./images/board/shubha.jpeg",
-            "role": "Chaiperson",
+            "role": "President",
             "in": true
         },
         {
             "name": "Amrit Raj",
             "img": "./images/board/ananya.jpg",
-            "role": "Vice-Chair",
-            "in": true
-        },
-        {
-            "name": "Ramya Jha",
-            "img": "./images/board/ajitesh.jpeg",
-            "role": "Events Head",
+            "role": "Vice-President",
             "in": true
         },
         {
             "name": "Akash Dip",
             "img": "./images/board/sourav.jpeg",
-            "role": "Tech Head",
+            "role": "Tech Lead",
             "in": true
         },
         {
-            "name": "Harsh Govind",
+            "name": "Neha Jha",
             "img": "./images/board/saiprava.jpeg",
             "role": "Tech Co-Lead",
             "in": true
         },
         {
+            "name": "Ramya Jha",
+            "img": "./images/board/ajitesh.jpeg",
+            "role": "Event Lead",
+            "in": true
+        },
+        {
+            "name": "Harsh Govind",
+            "img": "./images/board/saiprava.jpeg",
+            "role": "Event Co-Lead",
+            "in": true
+        },
+        {
+            "name": "Riya Raj",
+            "img": "./images/board/sanjiban.jpeg",
+            "role": "Content Lead",
+            "in": true
+        },
+        {
             "name": "Aman Verma",
             "img": "./images/board/alekhya.jpeg",
-            "role": "Social Media Head",
+            "role": "Social Media Lead",
             "in": true
         },
         {
-            "name": "Sanjiban Sengupta",
-            "img": "./images/board/sanjiban.jpeg",
-            "role": "ML Head",
-            "in": true
-        },
-        {
-            "name": "Aditya Gupta",
+            "name": "Saad Misbah Waris",
             "img": "./images/board/aditya.jpeg",
-            "role": "Web Dev Lead",
+            "role": "Design Lead",
             "in": true
         },
         {
-            "name": "Adhisikha Patnaik",
+            "name": "Anjali Kumari",
             "img": "./images/board/adhisikha.jpeg",
-            "role": "Web Dev Lead",
-            "in": true
-        },
-        {
-            "name": "Sagar Barapatre",
-            "img": "./images/board/sagar.jpg",
-            "role": "Web Dev Lead",
-            "in": true
-        },
-        {
-            "name": "A. Rupeswar Subudhi",
-            "img": "./images/board19/rupeswar.jpg",
-            "role": "Android Dev Lead",
-            "in": true
-        },
-        {
-            "name": "Akash Jaiswal",
-            "img": "./images/board/akash.jpeg",
-            "role": "Content Writer",
+            "role": "Design Co-Lead",
             "in": true
         }
     ]

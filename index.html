@@ -4,20 +4,27 @@
     <!-- Title of the webpage -->
     <title>GFG Student Chapter BIT-D</title>
     <!-- Favicon linking -->
-    <link rel="icon" type="image/png" sizes="32x32" href="icons/GFG Black.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/GFG Black.ico"
+      />
     <link rel="apple-touch-icon" sizes="180x180" href="icons/GFG Black.ico" />
-    <link rel="icon" type="image/png" sizes="16x16" href="icons/GFG Black.ico" />
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/GFG Black.ico"
+      />
     <!--Links to css CDN's-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Barlow:100,200,500" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Barlow:100,200,500"
+      rel="stylesheet" />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
     <!-- Links to css files -->
     <link rel="stylesheet" href="css/index.css" />
     <!-- <link rel="stylesheet" href="css/svg.css"> -->
     <!--Meta tags for SEO and Responsiveness-->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#141414" />
-    <meta name="Description" content="GFG BIT-D (Geeks For Geeks BIT Deoghar) is a Geeks For Geeks program for university students, with an aim to help students build their development skills." />
+    <meta name="Description" content="GFG BIT-D (Geeks For Geeks BIT Deoghar) is
+      a Geeks For Geeks program for university students, with an aim to help
+      students build their development skills." />
     <!-- Adding PWA Capabilities -->
     <link rel="manifest" href="manifest.json" />
     <script>
@@ -31,8 +38,10 @@
     <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
     <!-- TODO: Add SDKs for Firebase products that you want to use
             https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-messaging.js"></script>
+    <script
+      src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
+    <script
+      src="https://www.gstatic.com/firebasejs/7.5.0/firebase-messaging.js"></script>
     <script>
       // Your web app's Firebase configuration
       var firebaseConfig = {
@@ -53,7 +62,9 @@
     <div class="success-message barlow-medium" id="success-message"></div>
     <div class="error-message barlow-medium" id="error-message"></div>
     <div class="change-device-message barlow-medium" id="error-message">
-      <p data-aos="fade-up" class="barlow-extralight text-center extra-break"> Your email is registered to a another device. Would you like to shift to this devices for notifications? </p>
+      <p data-aos="fade-up" class="barlow-extralight text-center extra-break">
+        Your email is registered to a another device. Would you like to shift to
+        this devices for notifications? </p>
       <div data-aos="fade-up" class="button-maker">
         <div class="barlow-thin button-text" id="change-deviceID">Yes</div>
       </div>
@@ -72,7 +83,8 @@
           <a href="./blogs.html">Events</a>
         </h2>
         <h2 class="barlow-extralight text-center" id="contact">Contact Us</h2>
-        <img src="images/menu-image.svg" class="main-menu-image" alt="OpenMenu" />
+        <img src="images/menu-image.svg" class="main-menu-image" alt="OpenMenu"
+          />
       </div>
     </div>
     <div class="navbar">
@@ -89,114 +101,176 @@
         <!-- <div class="menu-item dark-light-toggle" id="dark-light-toggle"><p>Change Mode</p></div> -->
       </div>
       <div class="menu-phone" id="menu-open">
-        <svg xmlns="http://www.w3.org/2000/svg" width="36.68" height="21" viewBox="0 0 36.68 21">
-          <g id="Group_7" data-name="Group 7" transform="translate(-1000.435 -266.349)">
-            <path id="Path_6" data-name="Path 6" d="M-223.854-311.151h27.406" transform="translate(1233.563 578)" fill="none" stroke="#141414" stroke-width="1" />
-            <path id="Path_7" data-name="Path 7" d="M-223.854-311.151h18.34" transform="translate(1242.629 588)" fill="none" stroke="#141414" stroke-width="1" />
-            <path id="Path_8" data-name="Path 8" d="M-223.854-311.151h36.68" transform="translate(1224.289 598)" fill="none" stroke="#141414" stroke-width="1" />
-          </g>
-        </svg>
-      </div>
-    </div>
-    <div class="main" id="home-scroll">
-      <div class="main-text-holder">
-        <div class="main-text-holder-heading">
-          <!-- for dark mode -->
-          <img data-aos="fade-up" src="./images/events/GFG White.png" class="logo-nav aos-init aos-animate" alt="GFG BIT-D" style="height: 8em; width: 8em; margin-left: 0.3em" />
-          <!-- for light mode -->
-          <img data-aos="fade-up" src="./images/events/GFG Black.png" class="logo-light aos-init aos-animate" alt="GFG BIT-D" style="height: 8em; width: 8em; margin-left: 0.3em" />
-        </div>
-        <h2 data-aos="fade-up" class="barlow-medium"> Powered by Geeks for Geeks </h2>
-        <p data-aos="fade-up" class="barlow-extralight continous-text"> GFG Student Chapter BIT-D ,supports initiatives that are initiated by the local community. Under one roof, technical content writers, designers, and machine learning enthusiasts gather to share knowledge and grow as a community. </p>
-      </div>
-      <div class="main-down-arrow" id="down-arrow">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0
-                                28.55 44.393">
-          <g id="Group_2" data-name="Group 2" transform="translate(-966 -967.48)">
-            <path id="Path_1" data-name="Path 1" d="M982,967.98V1011.1" transform="translate(-1.5)" fill="none" stroke="#141414" stroke-linecap="round" stroke-width="1" />
-            <path id="Path_2" data-name="Path 2" d="M966.813,997.8l13.973,13.577L994.363,997.8" transform="translate(-0.313)" fill="none" stroke="#141414" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
-          </g>
-        </svg>
-      </div>
-      <img src="images/landing.svg" class="main-image" alt="Home Page" />
-    </div>
-    <div class="container-main holded-container" id="our-work-scroll">
-      <h1 data-aos="fade-up" class="barlow-medium text-center">Our Focus</h1>
-      <p data-aos="fade-up" class="barlow-extralight continous-text text-center extra-break"> To develop a community where the importance of high-quality education and community-driven initiatives is paramount. We work hard to present the club's materials in a way that motivates students to pursue their career goals totally in addition to promoting study. </p>
-      <p data-aos="fade-up" class="barlow-extralight text-center"> We held informative workshops on a variety of topics, including Web Development, Competitive Programming, Open Source, Talking Tech, and more! </p>
-    </div>
-    <div class="container-main holded-container" id="team-scroll">
-      <h1 data-aos="fade-up" class="barlow-medium text-center"> Discover the crew </h1>
-      <p data-aos="fade-up" class="barlow-extralight text-center extra-break"> Our committed team of Designers, Developers and Management works hard to provide the finest tools and learning opportunities for the community. </p>
-      <a href="./team.html">
-        <div data-aos="fade-up" class="button-maker">
-          <div class="barlow-thin button-text">The Team</div>
-        </div>
-      </a>
-    </div>
-    <div class="container-main holded-container" id="updates-scroll">
-      <h1 data-aos="fade-up" class="barlow-medium text-center">Updates</h1>
-      <p data-aos="fade-up" class="barlow-extralight text-center extra-break"> We are actively running workshops and making a positive impact on development side by producing top-notch projects. </p>
-      <div data-aos="fade-up" class="buttons">
-        <a href="https://www.instagram.com/gfg.bitd/" target="_blank" rel="noopener">
-          <div class="button-maker" id="projects-button">
-            <div class="barlow-thin button-text">Get Updates</div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="36.68" height="21"
+          viewBox="0 0 36.68 21">
+          <g id="Group_7" data-name="Group 7" transform="translate(-1000.435
+            -266.349)">
+            <path id="Path_6" data-name="Path 6" d="M-223.854-311.151h27.406"
+              transform="translate(1233.563 578)" fill="none" stroke="#141414"
+              stroke-width="1" />
+              <path id="Path_7" data-name="Path 7" d="M-223.854-311.151h18.34"
+                transform="translate(1242.629 588)" fill="none" stroke="#141414"
+                stroke-width="1" />
+                <path id="Path_8" data-name="Path 8" d="M-223.854-311.151h36.68"
+                  transform="translate(1224.289 598)" fill="none"
+                  stroke="#141414" stroke-width="1" />
+                </g>
+              </svg>
+            </div>
           </div>
-        </a>
-      </div>
-    </div>
-    <div class="container-main holded-container" id="updates-scroll">
-      <h1 data-aos="fade-up" class="barlow-medium text-center">Events</h1>
-      <p data-aos="fade-up" class="barlow-extralight text-center extra-break"> To jointly learn and develop is our main priority. Frequently, our team launches events. </p>
-      <div data-aos="fade-up" class="buttons">
-        <a href="./blogs.html">
-          <div class="button-maker" id="projects-button">
-            <div class="barlow-thin button-text">Check out</div>
-          </div>
-        </a>
-      </div>
-    </div>
-    <div class="container-main holded-container" id="contact-scroll">
-      <h1 data-aos="fade-up" class="barlow-medium text-center">Contact us</h1>
-      <p data-aos="fade-up" class="barlow-extralight text-center extra-break"> Our social media presence is highly active. </p>
-      <div data-aos="fade-up" class="icons small-icons">
-        <a href="https://www.instagram.com/gfg.bitd/" target="_blank" rel="noopener">
-          <img src="images/Instagram.svg" class="circle-icon" alt="GFG BIT Instagram" />
-        </a>
-        <a href="https://twitter.com/gfgbitd" target="_blank" rel="noopener">
-          <img src="images/Twitter.svg" class="circle-icon" alt="GFG BIT Twitter" />
-        </a>
-        <a href="https://www.linkedin.com/in/gfgbitd/" target="_blank" rel="noopener">
-          <img src="images/Linkedin.svg" class="circle-icon" alt="GFG BIT Linkedin" />
-        </a>
-        <a href="https://www.facebook.com/GFGBITD/" target="_blank" rel="noopener">
-          <img src="images/Facebook.svg" class="circle-icon" alt="GFG BIT Facebook" />
-        </a>
-        <a href="https://github.com/GFGBitD" target="_blank" rel="noopener">
-          <img src="images/Github.svg" class="circle-icon" alt="GFG BIT Github" />
-        </a>
-      </div>
-    </div>
-    <div class="container-main holded-container" id="stayupdated">
-      <h1 data-aos="fade-up" class="barlow-medium text-center">Stay Updated</h1>
-      <p data-aos="fade-up" class="barlow-extralight text-center extra-break"> Want to be informed about GFG BIT-D's most recent news? Enter your email address and choose the alerts checkbox. </p>
-      <input data-aos="fade-up" type="email" placeholder="Enter Email" class="text-field-maker" id="email" />
-      <div data-aos="fade-up" class="button-maker" id="get-updates">
-        <div class="barlow-thin button-text">Get Updates</div>
-      </div>
-    </div>
-    <div class="footer container-main container-main-last"></div>
-    <div class="footer container-main  container-main-last">
-      <div class="dark-light-toggle barlow-medium text-center" id="dark-light-toggle">
-        <p>Prefer dark mode.</p>
-      </div>
-    </div>
-    <!--Links to JS files and JS CDN's-->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="js/jq.js"></script>
-    <script src="js/index.js"></script>
-    <script>
+          <div class="main" id="home-scroll">
+            <div class="main-text-holder">
+              <div class="main-text-holder-heading">
+                <!-- for dark mode -->
+                <img data-aos="fade-up" src="./images/events/GFG White.png"
+                  class="logo-nav aos-init aos-animate" alt="GFG BIT-D"
+                  style="height: 8em; width: 8em; margin-left: 0.3em" />
+                <!-- for light mode -->
+                <img data-aos="fade-up" src="./images/events/GFG Black.png"
+                  class="logo-light aos-init aos-animate" alt="GFG BIT-D"
+                  style="height: 8em; width: 8em; margin-left: 0.3em" />
+              </div>
+              <h2 data-aos="fade-up" class="barlow-medium"> Powered by Geeks for
+                Geeks </h2>
+              <p data-aos="fade-up" class="barlow-extralight continous-text">
+                GFG Student Chapter BIT-D ,supports initiatives that are
+                initiated by the local community. Under one roof, technical
+                content writers, designers, and machine learning enthusiasts
+                gather to share knowledge and grow as a community. </p>
+            </div>
+            <div class="main-down-arrow" id="down-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0
+                28.55 44.393">
+                <g id="Group_2" data-name="Group 2" transform="translate(-966
+                  -967.48)">
+                  <path id="Path_1" data-name="Path 1" d="M982,967.98V1011.1"
+                    transform="translate(-1.5)" fill="none" stroke="#141414"
+                    stroke-linecap="round" stroke-width="1" />
+                    <path id="Path_2" data-name="Path 2"
+                      d="M966.813,997.8l13.973,13.577L994.363,997.8"
+                      transform="translate(-0.313)" fill="none" stroke="#141414"
+                      stroke-linecap="round" stroke-linejoin="round"
+                      stroke-width="1" />
+                    </g>
+                  </svg>
+                </div>
+                <img src="images/landing.svg" class="main-image" alt="Home Page"
+                  />
+              </div>
+              <div class="container-main holded-container" id="our-work-scroll">
+                <h1 data-aos="fade-up" class="barlow-medium text-center">Our
+                  Focus</h1>
+                <p data-aos="fade-up" class="barlow-extralight continous-text
+                  text-center extra-break"> To develop a community where the
+                  importance of high-quality education and community-driven
+                  initiatives is paramount. We work hard to present the club's
+                  materials in a way that motivates students to pursue their
+                  career goals totally in addition to promoting study. </p>
+                <p data-aos="fade-up" class="barlow-extralight text-center"> We
+                  held informative workshops on a variety of topics, including
+                  Web Development, Competitive Programming, Open Source, Talking
+                  Tech, and more! </p>
+              </div>
+              <div class="container-main holded-container" id="team-scroll">
+                <h1 data-aos="fade-up" class="barlow-medium text-center">
+                  Discover the crew </h1>
+                <p data-aos="fade-up" class="barlow-extralight text-center
+                  extra-break"> Our committed team of Designers, Developers and
+                  Management works hard to provide the finest tools and learning
+                  opportunities for the community. </p>
+                <a href="./team.html">
+                  <div data-aos="fade-up" class="button-maker">
+                    <div class="barlow-thin button-text">The Team</div>
+                  </div>
+                </a>
+              </div>
+              <div class="container-main holded-container" id="updates-scroll">
+                <h1 data-aos="fade-up" class="barlow-medium text-center">Updates</h1>
+                <p data-aos="fade-up" class="barlow-extralight text-center
+                  extra-break"> We are actively running workshops and making a
+                  positive impact on development side by producing top-notch
+                  projects. </p>
+                <div data-aos="fade-up" class="buttons">
+                  <a href="https://www.instagram.com/gfg.bitd/" target="_blank"
+                    rel="noopener">
+                    <div class="button-maker" id="projects-button">
+                      <div class="barlow-thin button-text">Get Updates</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="container-main holded-container" id="updates-scroll">
+                <h1 data-aos="fade-up" class="barlow-medium text-center">Events</h1>
+                <p data-aos="fade-up" class="barlow-extralight text-center
+                  extra-break"> To jointly learn and develop is our main
+                  priority. Frequently, our team launches events. </p>
+                <div data-aos="fade-up" class="buttons">
+                  <a href="./blogs.html">
+                    <div class="button-maker" id="projects-button">
+                      <div class="barlow-thin button-text">Check out</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="container-main holded-container" id="contact-scroll">
+                <h1 data-aos="fade-up" class="barlow-medium text-center">Contact
+                  us</h1>
+                <p data-aos="fade-up" class="barlow-extralight text-center
+                  extra-break"> Our social media presence is highly active. </p>
+                <div data-aos="fade-up" class="icons small-icons">
+                  <a href="https://www.instagram.com/gfg.bitd/" target="_blank"
+                    rel="noopener">
+                    <img src="images/Instagram.svg" class="circle-icon" alt="GFG
+                      BIT Instagram" />
+                  </a>
+                  <a href="https://twitter.com/gfgbitd" target="_blank"
+                    rel="noopener">
+                    <img src="images/Twitter.svg" class="circle-icon" alt="GFG
+                      BIT Twitter" />
+                  </a>
+                  <a href="https://www.linkedin.com/in/gfgbitd/" target="_blank"
+                    rel="noopener">
+                    <img src="images/Linkedin.svg" class="circle-icon" alt="GFG
+                      BIT Linkedin" />
+                  </a>
+                  <a href="https://www.facebook.com/GFGBITD/" target="_blank"
+                    rel="noopener">
+                    <img src="images/Facebook.svg" class="circle-icon" alt="GFG
+                      BIT Facebook" />
+                  </a>
+                  <a href="https://github.com/GFGBitD" target="_blank"
+                    rel="noopener">
+                    <img src="images/Github.svg" class="circle-icon" alt="GFG
+                      BIT Github" />
+                  </a>
+                </div>
+              </div>
+              <div class="container-main holded-container" id="stayupdated">
+                <h1 data-aos="fade-up" class="barlow-medium text-center">Stay
+                  Updated</h1>
+                <p data-aos="fade-up" class="barlow-extralight text-center
+                  extra-break"> Want to be informed about GFG BIT-D's most
+                  recent news? Enter your email address and choose the alerts
+                  checkbox. </p> <br>
+                <input data-aos="fade-up" type="email" placeholder="Enter Email"
+                  class="text-field-maker" id="email" />
+                <div data-aos="fade-up" class="button-maker" id="get-updates">
+                  <div class="barlow-thin button-text">Get Updates</div>
+                </div>
+              </div>
+              <div class="footer container-main container-main-last"></div>
+              <div class="footer container-main container-main-last">
+                <div class="dark-light-toggle barlow-medium text-center"
+                  id="dark-light-toggle">
+                  <p>Prefer dark mode.</p>
+                </div>
+              </div>
+              <!--Links to JS files and JS CDN's-->
+              <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+              <script src="js/jq.js"></script>
+              <script src="js/index.js"></script>
+              <script>
       AOS.init();
     </script>
-  </body>
-</html>
+            </body>
+          </html>
