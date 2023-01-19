@@ -31,7 +31,7 @@ var filesToCache = [
   './images/Twitter.svg',
   './images/Youtube.svg',
   './images/team.svg',
-  './images/board19/samarth.jpg',
+  /* './images/board19/samarth.jpg',
   './images/board19/ayush.jpg',
   './images/board19/samyak.jpg',
   './images/board19/aritro.jpg',
@@ -68,7 +68,7 @@ var filesToCache = [
   './images/techteam/PragatiBhattad.jpg',
   './images/techteam/prakhar.jpg',
   './images/techteam/raman.jpg',
-  './images/techteam/ritik.jpg',
+  // './images/techteam/ritik.jpg',
   './images/techteam/ShantanuVerma.jpg',
   './images/techteam/siddhartha.jpg',
   './images/techteam/SaiSandeepRayanuthala.jpg',
@@ -94,7 +94,7 @@ var filesToCache = [
   './images/designers/riya.jpg',
   './images/designers/ruchica.jpg',
   './images/designers/shravani.jpg',
-  './images/designers/ronish.jpg',
+  './images/designers/ronish.jpg', */
   './icons/icon-512x512.png',
   './icons/favicons/favicon.ico',
 	'./images/notification_icons/recruitments_blog.png'

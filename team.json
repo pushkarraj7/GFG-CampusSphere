@@ -2,13 +2,13 @@
     "board": [
         {
             "name": "Anmol Amrit",
-            "img": "./images/board/shubha.jpeg",
+            "img": "./images/board/anmol.jpg",
             "role": "President",
             "in": true
         },
         {
             "name": "Amrit Raj",
-            "img": "./images/board/ananya.jpg",
+            "img": "./images/board/amrit.jpg",
             "role": "Vice-President",
             "in": true
         },
@@ -20,7 +20,7 @@
         },
         {
             "name": "Neha Jha",
-            "img": "./images/board/saiprava.jpeg",
+            "img": "./images/board/neha.jpg",
             "role": "Tech Co-Lead",
             "in": true
         },
@@ -32,31 +32,31 @@
         },
         {
             "name": "Harsh Govind",
-            "img": "./images/board/saiprava.jpeg",
+            "img": "./images/board/harsh.jpg",
             "role": "Event Co-Lead",
             "in": true
         },
         {
             "name": "Riya Raj",
-            "img": "./images/board/sanjiban.jpeg",
+            "img": "./images/board/riya.jpg",
             "role": "Content Lead",
             "in": true
         },
         {
             "name": "Aman Verma",
-            "img": "./images/board/alekhya.jpeg",
+            "img": "./images/board/aman.jpg",
             "role": "Social Media Lead",
             "in": true
         },
         {
             "name": "Saad Misbah Waris",
-            "img": "./images/board/aditya.jpeg",
+            "img": "./images/board/saad.png",
             "role": "Design Lead",
             "in": true
         },
         {
             "name": "Anjali Kumari",
-            "img": "./images/board/adhisikha.jpeg",
+            "img": "./images/board/anjali.jpg",
             "role": "Design Co-Lead",
             "in": true
         }
